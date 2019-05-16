@@ -1,14 +1,14 @@
 Git
 
-  	# git config --global user.name "Arjun Gurung"
-	# git config --global user.email "alkdjfak@gmail.com"
+  	# git config --global user.name "Your Name Here"
+	# git config --global user.email "Your Email Address Here"
 	# git config --global core.editor "/usr/bin/bim"
 	# git config --global class.ui true		(This config for color)
 
 to check all the config list
 	# git config --list
-	user.name=git
-	user.email=alkdjfak@gmail.com
+	user.name=Your Name
+	user.email=Your Email Address
 	core.editor=/usr/bin/vim
 	class.ui=true
 	core.repositoryformatversion=0
@@ -26,7 +26,7 @@ git userfull Commands
     you can check manually detail using committed code
 	# git show 7725568
 	commit 7725568a;kdj;fkdadjfhadhgdnx
-	Author: Arjun Gurung<abcd@gmail.com>
+	Author: Your Name<abcd@gmail.com>
 	Date: Thur ....
 		Add new line
 	diff --git a/file-name.txt b/file-name.txt
@@ -94,5 +94,4 @@ Merge branch (Merge b, c to a)
 To push you repo to your Git-Hub
 	First create repo in Git-hub and copy link user below command
 
- # git push https://github.com/gundru/Git-Commands.git --all
-	
+# git push https://github.com/gundru/Git-Commands.git --all
