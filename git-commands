@@ -1,0 +1,98 @@
+Git
+
+  	# git config --global user.name "Arjun Gurung"
+	# git config --global user.email "alkdjfak@gmail.com"
+	# git config --global core.editor "/usr/bin/bim"
+	# git config --global class.ui true		(This config for color)
+
+to check all the config list
+	# git config --list
+	user.name=git
+	user.email=alkdjfak@gmail.com
+	core.editor=/usr/bin/vim
+	class.ui=true
+	core.repositoryformatversion=0
+	core.filemode=true
+	core.bare=false
+	core.logallrefupdate=true
+
+
+git userfull Commands
+	# git show		(show information)
+	# git show --online
+	7725568 Add new line
+	a986e07 This is my first file
+	
+    you can check manually detail using committed code
+	# git show 7725568
+	commit 7725568a;kdj;fkdadjfhadhgdnx
+	Author: Arjun Gurung<abcd@gmail.com>
+	Date: Thur ....
+		Add new line
+	diff --git a/file-name.txt b/file-name.txt
+	in........
+
+  datewise 
+	# git log --since=2018-07-25
+
+   Pattern
+	# git log --grep"pattern"
+
+   Commands
+	# git checkout master
+	# git pull
+	# git push origin master
+	# git log --online --graph --left-right orifin...master
+	# git branch
+    To clone
+	# git clone /path/ new-file-name
+    git log --grep
+	# git log --grep=
+
+	# git log --since=1.month
+	# git log --grep=frotz --author=Arjun Gurung
+    Rename file
+	# git mv old-file new-file  (Newver rename directly like mv old-file new-file)
+    Check different between 2 files
+	# git diff f806683 1de6d33    (7 alphabet commit)
+	diff --git a/mysite.txt b/mysite.txt
+	index a373793..dba0775 100644
+	--- a/mysite.txt
+	+++ b/mysite.txt
+	@@ -1 +1 @@
+	-This is my first site.
+	+This is my first file
+
+Under .gitignore file
+	# vi .gitignore 
+		# My personal direcroty for RND
+		gitclone/
+		# ignore log file
+		*.log
+		# Ignore .gitignore
+		.gitignore
+	save and exit
+
+
+forcefully add in git add
+	# git add -f file_name
+
+Create branch
+	# git branch branch_name
+  log in to branch
+	# git checkout branch_name
+     # git checkout -b new_branch_name    (Create new branch and checkout in once)
+   to check branches & where you at!
+	# git branch
+	 
+
+Merge branch (Merge b, c to a)
+ 	# git checkout a 
+  	# git merge b c
+	
+
+To push you repo to your Git-Hub
+	First create repo in Git-hub and copy link user below command
+
+ # git push https://github.com/gundru/Git-Commands.git --all
+	
