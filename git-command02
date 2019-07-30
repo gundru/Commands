@@ -6,10 +6,13 @@ Create branch
    to check branches & where you at!
         # git branch
 
+Push your branch to the remote repository:
+	# git push -u origin new_branch_name
 
-Merge branch (Merge b, c to a)
-        # git checkout a
-        # git merge b c
+
+Merge branch (Merge b, c to a) or (Merge a, b, c to master)
+        # git checkout a 	  (# git checkout master)
+        # git merge b c           (# git merge a, b, c)
 
 
 To push you repo to your Git-Hub
